@@ -1,0 +1,7 @@
+[03-Aug-2022 08:10:17 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/qv4315il8gfs/public_html/test/vendor/composer/platform_check.php on line 24
+[17-Aug-2022 12:00:44 UTC] PHP Fatal error:  Trait 'Laravel\Passport\HasApiTokens' not found in /home/qv4315il8gfs/public_html/test/app/Models/User.php on line 13
+[25-Aug-2022 12:43:59 UTC] PHP Fatal error:  Cannot use Auth as Auth because the name is already in use in /home/qv4315il8gfs/public_html/app/Http/Controllers/ProffController.php on line 27
+[25-Aug-2022 12:44:00 UTC] PHP Fatal error:  Cannot use Auth as Auth because the name is already in use in /home/qv4315il8gfs/public_html/app/Http/Controllers/ProffController.php on line 27
+[26-Aug-2022 06:45:07 UTC] PHP Fatal error:  Trait 'Laravel\Passport\HasApiTokens' not found in /home/qv4315il8gfs/public_html/app/Models/User.php on line 13
+[10-Sep-2022 06:15:33 UTC] PHP Warning:  file_exists() expects parameter 1 to be a valid path, string given in /home/qv4315il8gfs/public_html/index.php on line 17
+[10-Oct-2022 10:13:58 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\AdminControllerNew::userDataDetails() in /home/cyi0hvb6w0hk/public_html/meinhause/app/Http/Controllers/AdminControllerNew.php on line 2877

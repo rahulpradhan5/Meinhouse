@@ -1,0 +1,23 @@
+<script>
+    $(document).ready(function () {
+        $("#active<?php echo $userDetails->id; ?>").click(function () {
+            $.ajax({
+                url: '{{url("user_status")}}',
+                method: 'POST',
+                data: { id: "{{$userDetails->id}}", '_token': "{{csrf_token()}}" },
+                success: function (data) {
+                    if (data == '1') {
+                        $("#active<?php echo $userDetails->id; ?>").css("background-color", "#dc3545");
+                        $('#active<?php echo $userDetails->id; ?>').html('InActive');
+                    } else {
+                        $("#active<?php echo $userDetails->id; ?>").css("background-color", "#28a745");
+                        $('#active<?php echo $userDetails->id; ?>').html('Active');
+
+                    }
+                }
+            });
+
+        });
+
+    });
+</script>

@@ -1,0 +1,86 @@
+@media(max-width:1024px)
+{
+    .hero-banner
+    {
+        height: 50vh;
+    }
+}
+@media(max-width:768px)
+{
+    .hero-banner h1
+    {
+        font-size: 47px;
+    }
+    .hero-banner p.dreamland
+    {
+        padding-right: 0;
+    }
+}
+@media(max-width:414px)
+{
+    .hero-banner form
+    {
+        width: auto;
+    }
+    h2
+    {
+        font-size: 25px;
+    }
+    .hero-banner h1
+    {
+        font-size: 25px;
+        padding-top: 4%;
+    }
+    .hero-banner p.dreamland
+    {
+        font-size: 15px;
+        text-align: center;
+    }
+    .hero-banner span, .hero-banner h1 strong
+    {
+        text-align: center;
+        display: block;
+    }
+    .testim .wrap
+    {
+        padding: 30px 20px 40px 20px;
+    }
+    .hero-banner
+    {
+        height: 75vh;
+    }
+    .best-price .col-sm-6
+    {
+        width: 50%;
+        float: left;
+    }
+    .best-price .col-sm-6 h3{font-size: 15px;}
+    .best-price img
+    {
+        margin-top: 20px;
+        width: 35px;
+    }
+    .testim h2
+    {
+        padding: 0 10px;
+    }
+    .best-price
+    {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 375px)
+{
+.hero-banner {
+    height: 85vh;
+}
+}
+
+@media(max-width:360px)
+{
+    .hero-banner h3
+    {
+        font-size: 16px;
+    }
+}

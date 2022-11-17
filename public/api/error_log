@@ -1,0 +1,598 @@
+[07-Jun-2019 07:16:34 UTC] PHP Notice:  Undefined property on Braintree\Result\Error: customer in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Base.php on line 49
+[07-Jun-2019 07:16:34 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php on line 22
+[07-Jun-2019 07:16:35 UTC] PHP Notice:  Undefined property on Braintree\Result\Error: customer in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Base.php on line 49
+[07-Jun-2019 07:16:35 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php on line 25
+[07-Jun-2019 07:23:50 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Customer specified by customer_id does not exist in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php:118
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(63): Braintree\ClientTokenGateway->_verifyGatewayResponse(Array)
+#1 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(47): Braintree\ClientTokenGateway->_doGenerate('/client_token', Array)
+#2 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(32): Braintree\ClientTokenGateway->generate(Array)
+#3 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php on line 118
+[07-Jun-2019 07:30:40 UTC] PHP Notice:  Undefined variable: customId in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php on line 23
+[07-Jun-2019 07:31:48 UTC] PHP Notice:  Undefined variable: customId in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php on line 23
+[07-Jun-2019 08:20:11 UTC] PHP Fatal error:  Uncaught Braintree\Exception\Unexpected: Unexpected HTTP_RESPONSE #503 in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Util.php:80
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php(50): Braintree\Util::throwStatusCodeException(503)
+#1 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(61): Braintree\Http->post('/merchants/rt4w...', Array)
+#2 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(47): Braintree\ClientTokenGateway->_doGenerate('/client_token', Array)
+#3 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(23): Braintree\ClientTokenGateway->generate(Array)
+#4 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Util.php on line 80
+[07-Jun-2019 08:20:38 UTC] PHP Fatal error:  Uncaught Braintree\Exception\Unexpected: Unexpected HTTP_RESPONSE #503 in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Util.php:80
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php(50): Braintree\Util::throwStatusCodeException(503)
+#1 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(61): Braintree\Http->post('/merchants/rt4w...', Array)
+#2 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(47): Braintree\ClientTokenGateway->_doGenerate('/client_token', Array)
+#3 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(23): Braintree\ClientTokenGateway->generate(Array)
+#4 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Util.php on line 80
+[07-Jun-2019 09:02:00 UTC] PHP Fatal error:  Uncaught Braintree\Exception\Unexpected: Unexpected HTTP_RESPONSE #503 in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Util.php:80
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php(50): Braintree\Util::throwStatusCodeException(503)
+#1 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(61): Braintree\Http->post('/merchants/rt4w...', Array)
+#2 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(47): Braintree\ClientTokenGateway->_doGenerate('/client_token', Array)
+#3 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(23): Braintree\ClientTokenGateway->generate(Array)
+#4 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Util.php on line 80
+[07-Jun-2019 09:02:50 UTC] PHP Fatal error:  Uncaught Braintree\Exception\Unexpected: Unexpected HTTP_RESPONSE #503 in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Util.php:80
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php(50): Braintree\Util::throwStatusCodeException(503)
+#1 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(61): Braintree\Http->post('/merchants/rt4w...', Array)
+#2 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(47): Braintree\ClientTokenGateway->_doGenerate('/client_token', Array)
+#3 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(23): Braintree\ClientTokenGateway->generate(Array)
+#4 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Util.php on line 80
+[07-Jun-2019 09:14:04 UTC] PHP Fatal error:  Uncaught Braintree\Exception\Unexpected: Unexpected HTTP_RESPONSE #503 in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Util.php:80
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php(50): Braintree\Util::throwStatusCodeException(503)
+#1 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(61): Braintree\Http->post('/merchants/rt4w...', Array)
+#2 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(47): Braintree\ClientTokenGateway->_doGenerate('/client_token', Array)
+#3 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(23): Braintree\ClientTokenGateway->generate(Array)
+#4 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Util.php on line 80
+[07-Jun-2019 09:19:10 UTC] PHP Fatal error:  Uncaught Braintree\Exception\Unexpected: Unexpected HTTP_RESPONSE #503 in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Util.php:80
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php(50): Braintree\Util::throwStatusCodeException(503)
+#1 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(61): Braintree\Http->post('/merchants/rt4w...', Array)
+#2 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(47): Braintree\ClientTokenGateway->_doGenerate('/client_token', Array)
+#3 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(23): Braintree\ClientTokenGateway->generate(Array)
+#4 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Util.php on line 80
+[07-Jun-2019 09:20:31 UTC] PHP Fatal error:  Uncaught Braintree\Exception\Unexpected: Unexpected HTTP_RESPONSE #503 in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Util.php:80
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php(50): Braintree\Util::throwStatusCodeException(503)
+#1 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(61): Braintree\Http->post('/merchants/rt4w...', Array)
+#2 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(47): Braintree\ClientTokenGateway->_doGenerate('/client_token', Array)
+#3 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(23): Braintree\ClientTokenGateway->generate(Array)
+#4 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Util.php on line 80
+[07-Jun-2019 09:24:11 UTC] PHP Fatal error:  Uncaught Braintree\Exception\Unexpected: Unexpected HTTP_RESPONSE #503 in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Util.php:80
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php(50): Braintree\Util::throwStatusCodeException(503)
+#1 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(61): Braintree\Http->post('/merchants/rt4w...', Array)
+#2 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(47): Braintree\ClientTokenGateway->_doGenerate('/client_token', Array)
+#3 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(23): Braintree\ClientTokenGateway->generate(Array)
+#4 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Util.php on line 80
+[11-Jul-2019 12:04:20 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Customer specified by customer_id does not exist in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php:118
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(63): Braintree\ClientTokenGateway->_verifyGatewayResponse(Array)
+#1 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(47): Braintree\ClientTokenGateway->_doGenerate('/client_token', Array)
+#2 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(23): Braintree\ClientTokenGateway->generate(Array)
+#3 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php on line 118
+[11-Jul-2019 12:07:17 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Customer specified by customer_id does not exist in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php:118
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(63): Braintree\ClientTokenGateway->_verifyGatewayResponse(Array)
+#1 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(47): Braintree\ClientTokenGateway->_doGenerate('/client_token', Array)
+#2 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(23): Braintree\ClientTokenGateway->generate(Array)
+#3 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php on line 118
+[11-Jul-2019 12:23:27 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Customer specified by customer_id does not exist in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php:118
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(63): Braintree\ClientTokenGateway->_verifyGatewayResponse(Array)
+#1 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(47): Braintree\ClientTokenGateway->_doGenerate('/client_token', Array)
+#2 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(23): Braintree\ClientTokenGateway->generate(Array)
+#3 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php on line 118
+[30-Aug-2019 16:10:18 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[05-Sep-2019 14:07:00 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[05-Sep-2019 14:07:37 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[05-Sep-2019 14:08:21 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[09-Sep-2019 05:49:01 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[10-Sep-2019 05:54:47 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[10-Sep-2019 05:56:46 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[10-Sep-2019 06:04:38 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[10-Sep-2019 06:15:39 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[10-Sep-2019 06:16:04 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[10-Sep-2019 06:16:17 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[10-Sep-2019 06:19:03 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[10-Sep-2019 06:21:10 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[10-Sep-2019 06:22:20 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[10-Sep-2019 06:22:41 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[10-Sep-2019 06:24:52 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[10-Sep-2019 06:25:35 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[10-Sep-2019 06:33:04 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[10-Sep-2019 10:17:38 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[10-Sep-2019 13:18:37 UTC] PHP Recoverable fatal error:  Object of class Braintree\Gateway could not be converted to string in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/braintree_init.php on line 19
+[10-Sep-2019 13:19:06 UTC] PHP Recoverable fatal error:  Object of class Braintree\Gateway could not be converted to string in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/braintree_init.php on line 19
+[20-Sep-2019 16:52:15 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[08-Oct-2019 16:22:36 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[14-Oct-2019 15:42:11 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[14-Oct-2019 15:43:12 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[15-Oct-2019 06:42:01 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[15-Oct-2019 06:42:47 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[15-Oct-2019 06:43:09 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[15-Oct-2019 06:43:27 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[15-Oct-2019 06:43:32 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[15-Oct-2019 06:44:37 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[15-Oct-2019 06:45:47 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[15-Oct-2019 06:45:50 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[15-Oct-2019 06:46:58 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[15-Oct-2019 06:47:02 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[15-Oct-2019 06:47:04 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[15-Oct-2019 06:47:05 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[15-Oct-2019 06:47:08 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[15-Oct-2019 06:47:22 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[15-Oct-2019 06:47:38 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[15-Oct-2019 06:49:17 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[15-Oct-2019 06:49:29 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[15-Oct-2019 06:49:52 UTC] PHP Fatal error:  Uncaught Braintree\Exception: PHP version >= 7.2.0 required in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php:10
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(3): require_once()
+#1 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree.php on line 10
+[15-Oct-2019 06:50:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php on line 49
+[15-Oct-2019 06:50:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php on line 49
+[15-Oct-2019 06:50:56 UTC] PHP Notice:  Undefined variable: userdata in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php on line 36
+[29-Oct-2019 14:33:06 UTC] PHP Fatal error:  Uncaught Braintree\Exception\SSLCertificate: OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to api.sandbox.braintreegateway.com:443  in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php:195
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php(118): Braintree\Http->_doUrlRequest('POST', 'https://api.san...', '<?xml version="...', NULL, NULL)
+#1 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php(45): Braintree\Http->_doRequest('POST', '/merchants/rt4w...', '<?xml version="...')
+#2 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(61): Braintree\Http->post('/merchants/rt4w...', Array)
+#3 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(47): Braintree\ClientTokenGateway->_doGenerate('/client_token', Array)
+#4 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(27): Braintree\ClientTokenGateway->generate(Array)
+#5 {mai in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php on line 195
+[30-Oct-2019 08:01:43 UTC] PHP Fatal error:  Uncaught Braintree\Exception\Timeout in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php:190
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php(118): Braintree\Http->_doUrlRequest('POST', 'https://api.san...', '<?xml version="...', NULL, NULL)
+#1 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php(45): Braintree\Http->_doRequest('POST', '/merchants/rt4w...', '<?xml version="...')
+#2 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(61): Braintree\Http->post('/merchants/rt4w...', Array)
+#3 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(47): Braintree\ClientTokenGateway->_doGenerate('/client_token', Array)
+#4 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(27): Braintree\ClientTokenGateway->generate(Array)
+#5 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php on line 190
+[07-Nov-2019 11:26:26 UTC] PHP Warning:  session_start(): open(/opt/alt/php71/var/lib/php/session/sess_99b3033f680738b8007087c01d6294b0, O_RDWR) failed: Disk quota exceeded (122) in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/braintree_init.php on line 2
+[07-Nov-2019 11:26:26 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php71/var/lib/php/session) in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/braintree_init.php on line 2
+[07-Nov-2019 11:26:56 UTC] PHP Warning:  session_start(): open(/opt/alt/php71/var/lib/php/session/sess_280fc93acb068a028ea551ea67aafdae, O_RDWR) failed: Disk quota exceeded (122) in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/braintree_init.php on line 2
+[07-Nov-2019 11:26:56 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php71/var/lib/php/session) in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/braintree_init.php on line 2
+[07-Nov-2019 11:27:44 UTC] PHP Warning:  session_start(): open(/opt/alt/php71/var/lib/php/session/sess_04bfc420b80e934b7b8df7d01d04ccb7, O_RDWR) failed: Disk quota exceeded (122) in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/braintree_init.php on line 2
+[07-Nov-2019 11:27:44 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php71/var/lib/php/session) in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/braintree_init.php on line 2
+[07-Nov-2019 11:27:52 UTC] PHP Warning:  session_start(): open(/opt/alt/php71/var/lib/php/session/sess_f1645f3e3079eee6a8f4eb595002c1c0, O_RDWR) failed: Disk quota exceeded (122) in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/braintree_init.php on line 2
+[07-Nov-2019 11:27:52 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php71/var/lib/php/session) in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/braintree_init.php on line 2
+[08-Jan-2020 08:15:14 UTC] PHP Fatal error:  Uncaught Braintree\Exception\Connection: Could not resolve host: api.sandbox.braintreegateway.com in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php:199
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php(118): Braintree\Http->_doUrlRequest('POST', 'https://api.san...', '<?xml version="...', NULL, NULL)
+#1 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php(45): Braintree\Http->_doRequest('POST', '/merchants/rt4w...', '<?xml version="...')
+#2 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/CustomerGateway.php(520): Braintree\Http->post('/merchants/rt4w...', Array)
+#3 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/CustomerGateway.php(88): Braintree\CustomerGateway->_doCreate('/customers', Array)
+#4 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(13): Braintree\CustomerGateway->create(Array)
+#5 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php on line 199
+[08-Jan-2020 08:15:24 UTC] PHP Fatal error:  Uncaught Braintree\Exception\Connection: Could not resolve host: api.sandbox.braintreegateway.com in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php:199
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php(118): Braintree\Http->_doUrlRequest('POST', 'https://api.san...', '<?xml version="...', NULL, NULL)
+#1 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php(45): Braintree\Http->_doRequest('POST', '/merchants/rt4w...', '<?xml version="...')
+#2 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/CustomerGateway.php(520): Braintree\Http->post('/merchants/rt4w...', Array)
+#3 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/CustomerGateway.php(88): Braintree\CustomerGateway->_doCreate('/customers', Array)
+#4 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(13): Braintree\CustomerGateway->create(Array)
+#5 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php on line 199
+[08-Jan-2020 08:15:27 UTC] PHP Fatal error:  Uncaught Braintree\Exception\Connection: Could not resolve host: api.sandbox.braintreegateway.com in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php:199
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php(118): Braintree\Http->_doUrlRequest('POST', 'https://api.san...', '<?xml version="...', NULL, NULL)
+#1 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php(45): Braintree\Http->_doRequest('POST', '/merchants/rt4w...', '<?xml version="...')
+#2 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/CustomerGateway.php(520): Braintree\Http->post('/merchants/rt4w...', Array)
+#3 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/CustomerGateway.php(88): Braintree\CustomerGateway->_doCreate('/customers', Array)
+#4 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(13): Braintree\CustomerGateway->create(Array)
+#5 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php on line 199
+[08-Jan-2020 08:15:30 UTC] PHP Fatal error:  Uncaught Braintree\Exception\Connection: Could not resolve host: api.sandbox.braintreegateway.com in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php:199
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php(118): Braintree\Http->_doUrlRequest('POST', 'https://api.san...', '<?xml version="...', NULL, NULL)
+#1 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php(45): Braintree\Http->_doRequest('POST', '/merchants/rt4w...', '<?xml version="...')
+#2 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/CustomerGateway.php(520): Braintree\Http->post('/merchants/rt4w...', Array)
+#3 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/CustomerGateway.php(88): Braintree\CustomerGateway->_doCreate('/customers', Array)
+#4 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(13): Braintree\CustomerGateway->create(Array)
+#5 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php on line 199
+[08-Jan-2020 08:15:33 UTC] PHP Fatal error:  Uncaught Braintree\Exception\Connection: Could not resolve host: api.sandbox.braintreegateway.com in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php:199
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php(118): Braintree\Http->_doUrlRequest('POST', 'https://api.san...', '<?xml version="...', NULL, NULL)
+#1 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php(45): Braintree\Http->_doRequest('POST', '/merchants/rt4w...', '<?xml version="...')
+#2 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/CustomerGateway.php(520): Braintree\Http->post('/merchants/rt4w...', Array)
+#3 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/CustomerGateway.php(88): Braintree\CustomerGateway->_doCreate('/customers', Array)
+#4 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(13): Braintree\CustomerGateway->create(Array)
+#5 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php on line 199
+[08-Jan-2020 08:15:42 UTC] PHP Fatal error:  Uncaught Braintree\Exception\Connection: Could not resolve host: api.sandbox.braintreegateway.com in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php:199
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php(118): Braintree\Http->_doUrlRequest('POST', 'https://api.san...', '<?xml version="...', NULL, NULL)
+#1 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php(45): Braintree\Http->_doRequest('POST', '/merchants/rt4w...', '<?xml version="...')
+#2 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/CustomerGateway.php(520): Braintree\Http->post('/merchants/rt4w...', Array)
+#3 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/CustomerGateway.php(88): Braintree\CustomerGateway->_doCreate('/customers', Array)
+#4 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main.php(13): Braintree\CustomerGateway->create(Array)
+#5 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/Http.php on line 199
+[31-Jan-2020 10:18:23 UTC] PHP Notice:  Undefined index: nonce in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/checkout.php on line 5
+[31-Jan-2020 10:18:23 UTC] PHP Notice:  Undefined index: amount in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/checkout.php on line 6
+[31-Jan-2020 10:18:23 UTC] PHP Notice:  Undefined index: custId in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/checkout.php on line 7
+[31-Jan-2020 10:22:07 UTC] PHP Notice:  Undefined index: nonce in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/checkout.php on line 5
+[31-Jan-2020 10:22:07 UTC] PHP Notice:  Undefined index: amount in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/checkout.php on line 6
+[31-Jan-2020 10:22:07 UTC] PHP Notice:  Undefined index: custId in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/checkout.php on line 7
+[31-Jan-2020 10:41:16 UTC] PHP Notice:  Undefined index: nonce in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/checkout.php on line 5
+[31-Jan-2020 10:41:16 UTC] PHP Notice:  Undefined index: amount in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/checkout.php on line 6
+[31-Jan-2020 10:41:16 UTC] PHP Notice:  Undefined index: custId in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/checkout.php on line 7
+[31-Jan-2020 22:35:45 UTC] PHP Notice:  Undefined index: nonce in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/checkout.php on line 5
+[31-Jan-2020 22:35:45 UTC] PHP Notice:  Undefined index: amount in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/checkout.php on line 6
+[31-Jan-2020 22:35:45 UTC] PHP Notice:  Undefined index: custId in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/checkout.php on line 7
+[02-Feb-2020 08:30:04 UTC] PHP Notice:  Undefined index: nonce in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/checkout.php on line 5
+[02-Feb-2020 08:30:04 UTC] PHP Notice:  Undefined index: amount in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/checkout.php on line 6
+[02-Feb-2020 08:30:04 UTC] PHP Notice:  Undefined index: custId in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/checkout.php on line 7
+[04-Feb-2020 08:11:37 UTC] PHP Notice:  Undefined index: nonce in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/checkout.php on line 5
+[04-Feb-2020 08:11:37 UTC] PHP Notice:  Undefined index: amount in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/checkout.php on line 6
+[04-Feb-2020 08:11:37 UTC] PHP Notice:  Undefined index: custId in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/checkout.php on line 7
+[04-Feb-2020 10:09:28 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Customer specified by customer_id does not exist in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php:118
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(63): Braintree\ClientTokenGateway->_verifyGatewayResponse(Array)
+#1 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php(47): Braintree\ClientTokenGateway->_doGenerate('/client_token', Array)
+#2 /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/main_mein_haus.php(27): Braintree\ClientTokenGateway->generate(Array)
+#3 {main}
+  thrown in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/lib/Braintree/ClientTokenGateway.php on line 118
+[04-Feb-2020 10:25:18 UTC] PHP Notice:  Undefined index: custId in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/checkout.php on line 7
+[04-Feb-2020 10:28:58 UTC] PHP Notice:  Undefined index: custId in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/checkout.php on line 7
+[04-Feb-2020 10:35:55 UTC] PHP Notice:  Undefined index: custId in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/checkout_mein_haus.php on line 7
+[04-Feb-2020 11:09:13 UTC] PHP Notice:  Undefined index: nonce in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/checkout.php on line 5
+[04-Feb-2020 11:12:06 UTC] PHP Notice:  Undefined index: nonce in /home/lr1ljycovr7o/public_html/deliveraseapi/braintree/checkout.php on line 5
+[05-Feb-2020 08:01:26 UTC] PHP Warning:  require_once(braintree_init.php): failed to open stream: No such file or directory in /home/lr1ljycovr7o/public_html/erikhall/public/api/main_mein_haus.php on line 2
+[05-Feb-2020 08:01:26 UTC] PHP Fatal error:  require_once(): Failed opening required 'braintree_init.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/lr1ljycovr7o/public_html/erikhall/public/api/main_mein_haus.php on line 2
+[05-Feb-2020 08:03:12 UTC] PHP Warning:  require_once(braintree_init.php): failed to open stream: No such file or directory in /home/lr1ljycovr7o/public_html/erikhall/public/api/main_mein_haus.php on line 2
+[05-Feb-2020 08:03:12 UTC] PHP Fatal error:  require_once(): Failed opening required 'braintree_init.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/lr1ljycovr7o/public_html/erikhall/public/api/main_mein_haus.php on line 2
+[05-Feb-2020 08:03:35 UTC] PHP Warning:  require_once(braintree_init.php): failed to open stream: No such file or directory in /home/lr1ljycovr7o/public_html/erikhall/public/api/main_mein_haus.php on line 2
+[05-Feb-2020 08:03:35 UTC] PHP Fatal error:  require_once(): Failed opening required 'braintree_init.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/lr1ljycovr7o/public_html/erikhall/public/api/main_mein_haus.php on line 2
+[05-Feb-2020 08:42:27 UTC] PHP Warning:  require_once(braintree_init_meinhaus.php): failed to open stream: No such file or directory in /home/lr1ljycovr7o/public_html/erikhall/public/api/main.php on line 2
+[05-Feb-2020 08:42:27 UTC] PHP Fatal error:  require_once(): Failed opening required 'braintree_init_meinhaus.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/lr1ljycovr7o/public_html/erikhall/public/api/main.php on line 2
+[05-Feb-2020 08:42:44 UTC] PHP Warning:  require_once(braintree_init_meinhaus.php): failed to open stream: No such file or directory in /home/lr1ljycovr7o/public_html/erikhall/public/api/main.php on line 2
+[05-Feb-2020 08:42:44 UTC] PHP Fatal error:  require_once(): Failed opening required 'braintree_init_meinhaus.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/lr1ljycovr7o/public_html/erikhall/public/api/main.php on line 2
+[05-Feb-2020 08:43:25 UTC] PHP Warning:  require_once(braintree_init_meinhaus.php): failed to open stream: No such file or directory in /home/lr1ljycovr7o/public_html/erikhall/public/api/main.php on line 2
+[05-Feb-2020 08:43:25 UTC] PHP Fatal error:  require_once(): Failed opening required 'braintree_init_meinhaus.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/lr1ljycovr7o/public_html/erikhall/public/api/main.php on line 2
+[05-Feb-2020 08:43:42 UTC] PHP Warning:  require_once(braintree_init_meinhaus.php): failed to open stream: No such file or directory in /home/lr1ljycovr7o/public_html/erikhall/public/api/main.php on line 2
+[05-Feb-2020 08:43:42 UTC] PHP Fatal error:  require_once(): Failed opening required 'braintree_init_meinhaus.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/lr1ljycovr7o/public_html/erikhall/public/api/main.php on line 2
+[28-Feb-2020 05:44:05 UTC] PHP Fatal error:  Uncaught Braintree\Exception\Unexpected: Unexpected HTTP_RESPONSE #502 in /home/lr1ljycovr7o/public_html/erikhall/public/api/lib/Braintree/Util.php:80
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/erikhall/public/api/lib/Braintree/Http.php(50): Braintree\Util::throwStatusCodeException(502)
+#1 /home/lr1ljycovr7o/public_html/erikhall/public/api/lib/Braintree/ClientTokenGateway.php(61): Braintree\Http->post('/merchants/zdxj...', Array)
+#2 /home/lr1ljycovr7o/public_html/erikhall/public/api/lib/Braintree/ClientTokenGateway.php(47): Braintree\ClientTokenGateway->_doGenerate('/client_token', Array)
+#3 /home/lr1ljycovr7o/public_html/erikhall/public/api/main.php(20): Braintree\ClientTokenGateway->generate(Array)
+#4 {main}
+  thrown in /home/lr1ljycovr7o/public_html/erikhall/public/api/lib/Braintree/Util.php on line 80
+[20-Mar-2020 10:26:58 UTC] PHP Notice:  Undefined index: nonce in /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php on line 5
+[20-Mar-2020 10:26:58 UTC] PHP Notice:  Undefined index: amount in /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php on line 6
+[20-Mar-2020 10:26:58 UTC] PHP Notice:  Undefined index: custId in /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php on line 7
+[20-Mar-2020 13:14:59 UTC] PHP Notice:  Undefined index: nonce in /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php on line 5
+[20-Mar-2020 13:14:59 UTC] PHP Notice:  Undefined index: amount in /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php on line 6
+[20-Mar-2020 13:14:59 UTC] PHP Notice:  Undefined index: custId in /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php on line 7
+[20-Mar-2020 13:15:13 UTC] PHP Notice:  Undefined index: nonce in /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php on line 5
+[20-Mar-2020 13:15:13 UTC] PHP Notice:  Undefined index: amount in /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php on line 6
+[20-Mar-2020 13:15:13 UTC] PHP Notice:  Undefined index: custId in /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php on line 7
+[20-Mar-2020 13:16:34 UTC] PHP Notice:  Undefined index: nonce in /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php on line 5
+[20-Mar-2020 13:16:34 UTC] PHP Notice:  Undefined index: amount in /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php on line 6
+[20-Mar-2020 13:16:34 UTC] PHP Notice:  Undefined index: custId in /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php on line 7
+[20-Mar-2020 13:29:49 UTC] PHP Notice:  Undefined index: nonce in /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php on line 5
+[20-Mar-2020 13:29:49 UTC] PHP Notice:  Undefined index: amount in /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php on line 6
+[20-Mar-2020 13:29:49 UTC] PHP Notice:  Undefined index: custId in /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php on line 7
+[20-Mar-2020 13:29:59 UTC] PHP Notice:  Undefined variable: cid in /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php on line 20
+[20-Mar-2020 13:30:11 UTC] PHP Fatal error:  Uncaught Braintree\Exception\NotFound in /home/lr1ljycovr7o/public_html/erikhall/public/api/lib/Braintree/Util.php:62
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/erikhall/public/api/lib/Braintree/Http.php(50): Braintree\Util::throwStatusCodeException(404)
+#1 /home/lr1ljycovr7o/public_html/erikhall/public/api/lib/Braintree/PaymentMethodNonceGateway.php(38): Braintree\Http->post('/merchants/zdxj...')
+#2 /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php(25): Braintree\PaymentMethodNonceGateway->create('eyJ2ZXJzaW9uIjo...')
+#3 {main}
+  thrown in /home/lr1ljycovr7o/public_html/erikhall/public/api/lib/Braintree/Util.php on line 62
+[20-Mar-2020 13:30:16 UTC] PHP Notice:  Undefined index: nonce in /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php on line 5
+[20-Mar-2020 13:30:16 UTC] PHP Notice:  Undefined index: amount in /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php on line 6
+[20-Mar-2020 13:30:16 UTC] PHP Notice:  Undefined index: custId in /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php on line 7
+[20-Mar-2020 13:30:34 UTC] PHP Notice:  Undefined variable: cid in /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php on line 20
+[20-Mar-2020 13:30:35 UTC] PHP Fatal error:  Uncaught Braintree\Exception\NotFound in /home/lr1ljycovr7o/public_html/erikhall/public/api/lib/Braintree/Util.php:62
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/erikhall/public/api/lib/Braintree/Http.php(50): Braintree\Util::throwStatusCodeException(404)
+#1 /home/lr1ljycovr7o/public_html/erikhall/public/api/lib/Braintree/PaymentMethodNonceGateway.php(38): Braintree\Http->post('/merchants/zdxj...')
+#2 /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php(25): Braintree\PaymentMethodNonceGateway->create('eyJ2ZXJzaW9uIjo...')
+#3 {main}
+  thrown in /home/lr1ljycovr7o/public_html/erikhall/public/api/lib/Braintree/Util.php on line 62
+[20-Mar-2020 13:31:24 UTC] PHP Notice:  Undefined index: nonce in /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php on line 5
+[20-Mar-2020 13:31:24 UTC] PHP Notice:  Undefined index: amount in /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php on line 6
+[20-Mar-2020 13:31:24 UTC] PHP Notice:  Undefined index: custId in /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php on line 7
+[20-Mar-2020 13:31:44 UTC] PHP Notice:  Undefined variable: cid in /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php on line 48
+[20-Mar-2020 13:31:46 UTC] PHP Fatal error:  Uncaught Braintree\Exception\NotFound in /home/lr1ljycovr7o/public_html/erikhall/public/api/lib/Braintree/Util.php:62
+Stack trace:
+#0 /home/lr1ljycovr7o/public_html/erikhall/public/api/lib/Braintree/Http.php(50): Braintree\Util::throwStatusCodeException(404)
+#1 /home/lr1ljycovr7o/public_html/erikhall/public/api/lib/Braintree/PaymentMethodNonceGateway.php(38): Braintree\Http->post('/merchants/zdxj...')
+#2 /home/lr1ljycovr7o/public_html/erikhall/public/api/checkout.php(53): Braintree\PaymentMethodNonceGateway->create('eyJ2ZXJzaW9uIjo...')
+#3 {main}
+  thrown in /home/lr1ljycovr7o/public_html/erikhall/public/api/lib/Braintree/Util.php on line 62
+[25-Mar-2020 07:50:15 UTC] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 16
+[25-Mar-2020 08:26:32 UTC] PHP Notice:  Use of undefined constant payload - assumed 'payload' in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 62
+[25-Mar-2020 08:26:32 UTC] PHP Notice:  Use of undefined constant nonce - assumed 'nonce' in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 62
+[25-Mar-2020 08:26:39 UTC] PHP Notice:  Use of undefined constant payload - assumed 'payload' in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 62
+[25-Mar-2020 08:26:39 UTC] PHP Notice:  Use of undefined constant nonce - assumed 'nonce' in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 62
+[25-Mar-2020 08:26:46 UTC] PHP Notice:  Use of undefined constant payload - assumed 'payload' in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 62
+[25-Mar-2020 08:26:46 UTC] PHP Notice:  Use of undefined constant nonce - assumed 'nonce' in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 62
+[25-Mar-2020 08:28:42 UTC] PHP Notice:  Use of undefined constant payload - assumed 'payload' in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 60
+[25-Mar-2020 08:28:42 UTC] PHP Notice:  Use of undefined constant nonce - assumed 'nonce' in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 60
+[25-Mar-2020 08:35:15 UTC] PHP Notice:  Use of undefined constant payload - assumed 'payload' in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 60
+[25-Mar-2020 08:35:15 UTC] PHP Notice:  Use of undefined constant nonce - assumed 'nonce' in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 60
+[25-Mar-2020 14:24:35 UTC] PHP Notice:  Use of undefined constant payload - assumed 'payload' in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 60
+[25-Mar-2020 14:24:35 UTC] PHP Notice:  Use of undefined constant nonce - assumed 'nonce' in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 60
+[25-Mar-2020 15:58:08 UTC] PHP Notice:  Use of undefined constant payload - assumed 'payload' in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 64
+[25-Mar-2020 15:58:08 UTC] PHP Notice:  Use of undefined constant nonce - assumed 'nonce' in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 64
+[25-Mar-2020 15:59:17 UTC] PHP Notice:  Use of undefined constant payload - assumed 'payload' in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 66
+[25-Mar-2020 15:59:17 UTC] PHP Notice:  Use of undefined constant nonce - assumed 'nonce' in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 66
+[25-Mar-2020 15:59:43 UTC] PHP Notice:  Use of undefined constant payload - assumed 'payload' in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 66
+[25-Mar-2020 15:59:43 UTC] PHP Notice:  Use of undefined constant nonce - assumed 'nonce' in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 66
+[25-Mar-2020 16:13:40 UTC] PHP Notice:  Undefined variable: gateway in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 57
+[25-Mar-2020 16:13:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function paymentMethodNonce() on null in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 57
+[25-Mar-2020 16:15:54 UTC] PHP Notice:  Undefined variable: gateway in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 57
+[25-Mar-2020 16:15:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function paymentMethodNonce() on null in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 57
+[25-Mar-2020 16:16:58 UTC] PHP Notice:  Undefined variable: gateway in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 65
+[25-Mar-2020 16:16:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function paymentMethodNonce() on null in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/lr1ljycovr7o/public_html/erikhall/public/api/newbrain.php on line 65
+[27-Mar-2020 12:30:21 UTC] PHP Notice:  Undefined index: email in /home/lr1ljycovr7o/public_html/erikhall/public/api/main.php on line 4
+[27-Mar-2020 12:31:40 UTC] PHP Notice:  Undefined index: email in /home/lr1ljycovr7o/public_html/erikhall/public/api/main.php on line 4
+[27-Mar-2020 12:32:23 UTC] PHP Notice:  Undefined index: email in /home/lr1ljycovr7o/public_html/erikhall/public/api/main.php on line 4
+[27-Mar-2020 12:32:53 UTC] PHP Notice:  Undefined index: email in /home/lr1ljycovr7o/public_html/erikhall/public/api/main.php on line 4
+[27-Mar-2020 12:32:55 UTC] PHP Notice:  Undefined index: email in /home/lr1ljycovr7o/public_html/erikhall/public/api/main.php on line 4
+[27-Mar-2020 12:39:17 UTC] PHP Notice:  Undefined variable: data in /home/lr1ljycovr7o/public_html/erikhall/public/api/main.php on line 4
+[27-Mar-2020 12:41:32 UTC] PHP Notice:  Undefined variable: data in /home/lr1ljycovr7o/public_html/erikhall/public/api/main.php on line 4
+[27-Mar-2020 12:47:02 UTC] PHP Notice:  Undefined variable: data in /home/lr1ljycovr7o/public_html/erikhall/public/api/main.php on line 5
+[27-Mar-2020 12:49:01 UTC] PHP Notice:  Undefined index: data in /home/lr1ljycovr7o/public_html/erikhall/public/api/main.php on line 5
+[14-Apr-2020 14:37:55 UTC] PHP Notice:  Undefined index: nonce in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 5
+[14-Apr-2020 14:37:55 UTC] PHP Notice:  Undefined index: amount in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 6
+[14-Apr-2020 14:37:55 UTC] PHP Notice:  Undefined index: custId in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 7
+[04-Jun-2020 07:31:55 UTC] PHP Notice:  Undefined index: nonce in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 5
+[04-Jun-2020 07:31:55 UTC] PHP Notice:  Undefined index: amount in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 6
+[04-Jun-2020 07:31:55 UTC] PHP Notice:  Undefined index: custId in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 7
+[30-Jun-2020 11:39:10 UTC] PHP Fatal error:  Uncaught Braintree\Exception\Connection: Could not resolve host: api.sandbox.braintreegateway.com in /home/qv4315il8gfs/public_html/public/api/lib/Braintree/Http.php:199
+Stack trace:
+#0 /home/qv4315il8gfs/public_html/public/api/lib/Braintree/Http.php(118): Braintree\Http->_doUrlRequest('POST', 'https://api.san...', '<?xml version="...', NULL, NULL)
+#1 /home/qv4315il8gfs/public_html/public/api/lib/Braintree/Http.php(45): Braintree\Http->_doRequest('POST', '/merchants/zdxj...', '<?xml version="...')
+#2 /home/qv4315il8gfs/public_html/public/api/lib/Braintree/TransactionGateway.php(495): Braintree\Http->post('/merchants/zdxj...', Array)
+#3 /home/qv4315il8gfs/public_html/public/api/lib/Braintree/TransactionGateway.php(48): Braintree\TransactionGateway->_doCreate('/transactions', Array)
+#4 /home/qv4315il8gfs/public_html/public/api/lib/Braintree/TransactionGateway.php(307): Braintree\TransactionGateway->create(Array)
+#5 /home/qv4315il8gfs/public_html/public/api/checkout.php(15): Braintree\TransactionGateway->sale(Ar in /home/qv4315il8gfs/public_html/public/api/lib/Braintree/Http.php on line 199
+[10-Aug-2020 08:34:38 UTC] PHP Notice:  Undefined index: nonce in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 5
+[10-Aug-2020 08:34:38 UTC] PHP Notice:  Undefined index: amount in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 6
+[10-Aug-2020 08:34:38 UTC] PHP Notice:  Undefined index: custId in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 7
+[10-Aug-2020 08:36:34 UTC] PHP Notice:  Undefined index: nonce in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 5
+[10-Aug-2020 08:36:34 UTC] PHP Notice:  Undefined index: amount in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 6
+[10-Aug-2020 08:36:34 UTC] PHP Notice:  Undefined index: custId in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 7
+[10-Aug-2020 08:54:42 UTC] PHP Notice:  Undefined index: nonce in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 5
+[10-Aug-2020 08:54:43 UTC] PHP Notice:  Undefined index: amount in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 6
+[10-Aug-2020 08:54:43 UTC] PHP Notice:  Undefined index: custId in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 7
+[10-Aug-2020 08:59:01 UTC] PHP Notice:  Undefined index: nonce in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 5
+[10-Aug-2020 08:59:01 UTC] PHP Notice:  Undefined index: amount in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 6
+[10-Aug-2020 08:59:01 UTC] PHP Notice:  Undefined index: custId in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 7
+[10-Aug-2020 09:00:39 UTC] PHP Notice:  Undefined index: nonce in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 5
+[10-Aug-2020 09:00:39 UTC] PHP Notice:  Undefined index: amount in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 6
+[10-Aug-2020 09:00:39 UTC] PHP Notice:  Undefined index: custId in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 7
+[10-Aug-2020 09:01:27 UTC] PHP Notice:  Undefined index: nonce in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 5
+[10-Aug-2020 09:01:27 UTC] PHP Notice:  Undefined index: amount in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 6
+[10-Aug-2020 09:01:27 UTC] PHP Notice:  Undefined index: custId in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 7
+[10-Aug-2020 09:02:35 UTC] PHP Notice:  Undefined index: nonce in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 5
+[10-Aug-2020 09:02:35 UTC] PHP Notice:  Undefined index: amount in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 6
+[10-Aug-2020 09:02:35 UTC] PHP Notice:  Undefined index: custId in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 7
+[10-Aug-2020 09:03:08 UTC] PHP Notice:  Undefined index: nonce in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 5
+[10-Aug-2020 09:03:08 UTC] PHP Notice:  Undefined index: amount in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 6
+[10-Aug-2020 09:03:08 UTC] PHP Notice:  Undefined index: custId in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 7
+[11-Aug-2020 08:35:05 UTC] PHP Notice:  Undefined index: nonce in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 5
+[11-Aug-2020 08:35:05 UTC] PHP Notice:  Undefined index: amount in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 6
+[11-Aug-2020 08:35:05 UTC] PHP Notice:  Undefined index: custId in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 7
+[12-Aug-2020 07:40:45 UTC] PHP Notice:  Undefined index: nonce in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 5
+[12-Aug-2020 07:40:45 UTC] PHP Notice:  Undefined index: amount in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 6
+[12-Aug-2020 07:40:45 UTC] PHP Notice:  Undefined index: custId in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 7
+[12-Aug-2020 07:46:50 UTC] PHP Notice:  Undefined index: nonce in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 5
+[12-Aug-2020 07:46:50 UTC] PHP Notice:  Undefined index: amount in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 6
+[12-Aug-2020 07:46:50 UTC] PHP Notice:  Undefined index: custId in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 7
+[12-Aug-2020 15:07:38 UTC] PHP Notice:  Undefined index: nonce in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 5
+[12-Aug-2020 15:07:38 UTC] PHP Notice:  Undefined index: amount in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 6
+[12-Aug-2020 15:07:38 UTC] PHP Notice:  Undefined index: custId in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 7
+[13-Aug-2020 06:24:44 UTC] PHP Notice:  Undefined index: nonce in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 5
+[13-Aug-2020 06:24:44 UTC] PHP Notice:  Undefined index: amount in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 6
+[13-Aug-2020 06:24:44 UTC] PHP Notice:  Undefined index: custId in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 7
+[21-Aug-2020 08:40:54 UTC] PHP Notice:  Undefined index: nonce in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 5
+[21-Aug-2020 08:40:54 UTC] PHP Notice:  Undefined index: amount in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 6
+[21-Aug-2020 08:40:54 UTC] PHP Notice:  Undefined index: custId in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 7
+[21-Jul-2022 06:33:45 UTC] PHP Notice:  Undefined index: nonce in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 5
+[21-Jul-2022 06:33:45 UTC] PHP Notice:  Undefined index: amount in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 6
+[21-Jul-2022 06:33:45 UTC] PHP Notice:  Undefined index: custId in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 7
+[21-Jul-2022 09:23:41 UTC] PHP Notice:  Undefined index: nonce in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 5
+[21-Jul-2022 09:23:41 UTC] PHP Notice:  Undefined index: amount in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 6
+[21-Jul-2022 09:23:41 UTC] PHP Notice:  Undefined index: custId in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 7
+[21-Jul-2022 09:37:22 UTC] PHP Notice:  Undefined index: nonce in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 5
+[21-Jul-2022 09:37:22 UTC] PHP Notice:  Undefined index: amount in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 6
+[21-Jul-2022 09:37:22 UTC] PHP Notice:  Undefined index: custId in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 7
+[21-Jul-2022 10:00:51 UTC] PHP Notice:  Undefined index: nonce in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 5
+[21-Jul-2022 10:00:51 UTC] PHP Notice:  Undefined index: amount in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 6
+[21-Jul-2022 10:00:51 UTC] PHP Notice:  Undefined index: custId in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 7
+[21-Jul-2022 17:58:52 UTC] PHP Notice:  Undefined index: nonce in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 5
+[21-Jul-2022 17:58:52 UTC] PHP Notice:  Undefined index: amount in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 6
+[21-Jul-2022 17:58:52 UTC] PHP Notice:  Undefined index: custId in /home/qv4315il8gfs/public_html/public/api/checkout.php on line 7
